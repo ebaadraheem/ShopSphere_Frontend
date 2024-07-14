@@ -2,7 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth,GoogleAuthProvider } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: "AIzaSyAqPV7wp8E2L5S1UkerX1pmP6ePyNmLiPY",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "shopsphere-d07bd.firebaseapp.com",
   projectId: "shopsphere-d07bd",
   storageBucket: "shopsphere-d07bd.appspot.com",
