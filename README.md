@@ -72,6 +72,7 @@ Copy code
 VITE_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 VITE_BACKEND_URL=http://localhost:5000
 VITE_ADMIN_ID=Your_specific_admin_id
+VITE_FIREBASE_API_KEY=your_firebase_api_key
 
 Running the Application
 Start the backend server:
