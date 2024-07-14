@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+@layer components{
+
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        
+        background: rgb(185, 193, 196); /* Background color */
+        
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: rgb(143, 145, 146); /* Thumb color */
+        
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(102, 101, 101); /* Thumb color on hover */
+    }
+    .bkg-img{
+        /* background-position: cover; */
+        background-image: url("https://wallpapers.com/images/hd/light-grey-background-3rpc9nmamj0y6ff7.jpg");
+    }
+    .flexer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .roboto_font {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .selected {
+        background-color: rgb(31, 30, 30);
+      }  
+      
+}
